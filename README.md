@@ -11,6 +11,10 @@
 - 🎨 现代化 UI 设计
 - ⚡ 基于 Nuxt 4 + Vue 3
 
+## 🌐 在线预览
+
+**[https://xiaowwww-cyber.github.io/help_center/](https://xiaowwww-cyber.github.io/help_center/)** (由 GitHub Pages 提供)
+
 ## 🚀 快速开始
 
 ### 安装依赖
