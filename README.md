@@ -29,7 +29,7 @@ yarn install
 ### 开发模式
 
 ```bash
-pnpm dev
+pnpm run dev
 ```
 
 访问 `http://localhost:3000` 查看效果。
@@ -37,7 +37,7 @@ pnpm dev
 ### 生产构建
 
 ```bash
-pnpm build
+pnpm run generate
 ```
 
 ### 预览生产构建
