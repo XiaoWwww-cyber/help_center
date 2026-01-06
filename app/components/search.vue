@@ -42,6 +42,7 @@ import { useRouter } from "vue-router";
 import Fuse from "fuse.js";
 import { extractTextFromAst } from "~/utils/content";
 import { docsMenuItems } from "@/config/docs-menu";
+import { videoData } from "@/config/video-data";
 
 const props = withDefaults(defineProps<{
   placeholder?: string;
@@ -64,16 +65,6 @@ const showResults = ref(false);
 const loading = ref(false);
 let fuse: Fuse<any> | null = null;
 let allDocs: any[] = [];
-
-// 示例视频数据 - 请替换为您自己的视频
-const videoData = [
-  { type: 'video', tab: 'main', category: '快速入门', title: '平台介绍', description: '了解平台的核心功能和使用场景' },
-  { type: 'video', tab: 'main', category: '快速入门', title: '账号注册', description: '演示如何注册和登录系统' },
-  { type: 'video', tab: 'main', category: '基础操作', title: '数据导入', description: '演示如何导入数据到系统' },
-  { type: 'video', tab: 'main', category: '基础操作', title: '数据导出', description: '演示如何导出数据报表' },
-  { type: 'video', tab: 'main', category: '高级功能', title: 'API对接', description: '演示如何使用API进行系统对接' },
-  { type: 'video', tab: 'main', category: '高级功能', title: '权限管理', description: '演示如何配置用户权限' },
-];
 
 function getMenuPaths(items: any[]): string[] {
   const paths: string[] = [];

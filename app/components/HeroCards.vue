@@ -6,29 +6,29 @@ const activeIndex = ref(0);
 const cards = [
   {
     id: 1,
-    title: "全员覆盖",
-    icon: "i-lucide-users",
+    title: "内容统计",
+    icon: "i-lucide-file-text",
     color: "from-violet-500 to-violet-600",
     type: "users",
   },
   {
     id: 2,
-    title: "安全可靠",
-    icon: "i-lucide-shield-check",
+    title: "技术栈",
+    icon: "i-lucide-layers",
     color: "from-indigo-500 to-indigo-600",
     type: "security",
   },
   {
     id: 3,
-    title: "实时监控",
-    icon: "i-lucide-activity",
+    title: "访问趋势",
+    icon: "i-lucide-trending-up",
     color: "from-blue-500 to-blue-600",
     type: "chart",
   },
   {
     id: 4,
-    title: "智能分析",
-    icon: "i-lucide-bar-chart-3",
+    title: "性能指标",
+    icon: "i-lucide-gauge",
     color: "from-cyan-500 to-cyan-600",
     type: "analysis",
   },
@@ -182,11 +182,11 @@ const getCardStyle = (index: number) => {
                 <div
                   class="p-2 bg-green-400/20 rounded-lg text-green-300 flex items-center justify-center"
                 >
-                  <UIcon name="i-lucide-lock" class="w-5 h-5" />
+                  <UIcon name="i-lucide-hexagon" class="w-5 h-5" />
                 </div>
                 <div>
-                  <div class="text-sm font-bold text-white">多重加密机制</div>
-                  <div class="text-xs text-indigo-200">RSA + AES Hybrid</div>
+                  <div class="text-sm font-bold text-white">Nuxt 4</div>
+                  <div class="text-xs text-indigo-200">Vue 3 + Vite</div>
                 </div>
               </div>
               <div
@@ -195,11 +195,11 @@ const getCardStyle = (index: number) => {
                 <div
                   class="p-2 bg-blue-400/20 rounded-lg text-blue-300 flex items-center justify-center"
                 >
-                  <UIcon name="i-lucide-shield-check" class="w-5 h-5" />
+                  <UIcon name="i-lucide-palette" class="w-5 h-5" />
                 </div>
                 <div>
-                  <div class="text-sm font-bold text-white">数据防篡改</div>
-                  <div class="text-xs text-indigo-200">Blockchain Ledger</div>
+                  <div class="text-sm font-bold text-white">Nuxt UI</div>
+                  <div class="text-xs text-indigo-200">TailwindCSS</div>
                 </div>
               </div>
             </div>
@@ -211,21 +211,21 @@ const getCardStyle = (index: number) => {
               <div
                 class="absolute inset-0 flex items-center justify-center opacity-30"
               >
-                <UIcon name="i-lucide-globe" class="w-40 h-40" />
+                <UIcon name="i-lucide-book-open" class="w-40 h-40" />
               </div>
               <div class="grid grid-cols-2 gap-4 w-full z-10">
                 <div
                   v-for="(role, i) in [
                     '文档数量',
                     '视频教程',
-                    '用户访问',
-                    '搜索次数',
+                    '分类目录',
+                    '代码示例',
                   ]"
                   :key="i"
                   class="bg-white/10 backdrop-blur-md p-3 rounded-lg text-center border border-white/10"
                 >
                   <div class="text-lg font-bold text-white mb-1">
-                    {{ ["100", "50", "1000", "500"][i] }}+
+                    {{ ["50", "20", "10", "30"][i] }}+
                   </div>
                   <div class="text-xs text-violet-200">{{ role }}</div>
                 </div>
@@ -239,32 +239,32 @@ const getCardStyle = (index: number) => {
               <div class="space-y-4">
                 <div>
                   <div class="flex justify-between text-xs text-cyan-100 mb-1">
-                    <span>搜索准确率</span>
-                    <span>99.9%</span>
+                    <span>Lighthouse 评分</span>
+                    <span>95+</span>
                   </div>
                   <div
                     class="h-2 w-full bg-white/20 rounded-full overflow-hidden"
                   >
                     <div
-                      class="h-full bg-cyan-300 w-[99.9%] rounded-full shadow-[0_0_10px_rgba(103,232,249,0.5)]"
+                      class="h-full bg-cyan-300 w-[95%] rounded-full shadow-[0_0_10px_rgba(103,232,249,0.5)]"
                     ></div>
                   </div>
                 </div>
                 <div>
                   <div class="flex justify-between text-xs text-cyan-100 mb-1">
-                    <span>页面加载速度</span>
+                    <span>首屏加载</span>
                     <span>&lt; 1s</span>
                   </div>
                   <div
                     class="h-2 w-full bg-white/20 rounded-full overflow-hidden"
                   >
-                    <div class="h-full bg-green-400 w-[95%] rounded-full"></div>
+                    <div class="h-full bg-green-400 w-[90%] rounded-full"></div>
                   </div>
                 </div>
                 <div>
                   <div class="flex justify-between text-xs text-cyan-100 mb-1">
-                    <span>内容更新频率</span>
-                    <span>实时</span>
+                    <span>SEO 友好</span>
+                    <span>100%</span>
                   </div>
                   <div
                     class="h-2 w-full bg-white/20 rounded-full overflow-hidden"

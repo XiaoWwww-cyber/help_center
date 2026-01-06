@@ -14,56 +14,17 @@ const roles = [
     title: "内容编辑",
     color: "bg-emerald-50 text-emerald-700 border-emerald-200",
     icon: "i-lucide-edit",
-    responsibilities: ["文档内容编写", "内容审核校对", "文档结构优化"],
-    dataUpload: [
-      "Markdown 文档",
-      "图片素材",
-      "视频资源",
-    ],
-    workflow: [
-      "规划文档结构",
-      "编写文档内容",
-      "上传图片视频",
-      "发布审核上线",
-    ],
-  },
-  {
-    title: "系统管理员",
-    color: "bg-purple-50 text-purple-700 border-purple-200",
-    icon: "i-lucide-shield",
-    responsibilities: [
-      "系统配置管理",
-      "用户权限分配",
-      "数据备份维护",
-    ],
-    dataUpload: ["系统配置", "用户数据", "操作日志"],
-    workflow: [
-      "配置系统参数",
-      "管理用户权限",
-      "监控系统状态",
-      "定期数据备份",
-    ],
+    responsibilities: ["编写 Markdown 文档", "上传图片视频素材", "维护文档结构"],
+    dataUpload: ["Markdown 文档", "图片素材", "视频资源"],
+    workflow: ["规划文档结构", "编写文档内容", "上传媒体资源", "预览发布"],
   },
   {
     title: "开发者",
-    color: "bg-orange-50 text-orange-700 border-orange-200",
+    color: "bg-purple-50 text-purple-700 border-purple-200",
     icon: "i-lucide-code",
-    responsibilities: [
-      "功能定制开发",
-      "主题样式调整",
-      "插件扩展集成",
-    ],
-    dataUpload: [
-      "代码文件",
-      "配置文件",
-      "静态资源",
-    ],
-    workflow: [
-      "克隆项目代码",
-      "安装依赖环境",
-      "开发定制功能",
-      "测试部署上线",
-    ],
+    responsibilities: ["功能定制开发", "主题样式调整", "插件扩展集成"],
+    dataUpload: ["Vue 组件", "配置文件", "静态资源"],
+    workflow: ["克隆项目代码", "安装依赖", "定制开发", "部署上线"],
   },
   {
     title: "普通用户",
@@ -71,7 +32,7 @@ const roles = [
     icon: "i-lucide-user",
     responsibilities: ["浏览帮助文档", "观看视频教程", "搜索问题答案"],
     dataUpload: ["搜索记录", "浏览历史"],
-    workflow: ["访问帮助中心", "搜索相关内容", "阅读文档教程", "解决使用问题"],
+    workflow: ["访问帮助中心", "搜索内容", "阅读文档", "解决问题"],
   },
 ];
 
@@ -126,10 +87,10 @@ onBeforeUnmount(() => { if (st) st.kill(); });
               </span>
             </div>
             <h2 class="text-5xl md:text-7xl font-bold text-slate-900 mb-8 leading-tight">
-              了解各角色<br />的使用指南
+              适用于<br />不同角色
             </h2>
             <p class="text-xl text-slate-500 max-w-xl mb-8 leading-relaxed">
-              深度解析内容编辑、系统管理员、开发者等各角色的使用场景、操作权限以及标准化工作流程。
+              无论你是内容编辑、开发者还是普通用户，都能快速上手使用本帮助中心模板。
               <br /><br />
               向右滑动，查看全部角色详情。
             </p>

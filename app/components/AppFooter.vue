@@ -4,7 +4,7 @@
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="mb-6 md:mb-0">
           <h2 class="text-2xl font-bold mb-2">帮助中心平台</h2>
-          <p class="text-blue-300 text-sm">构建全链条、全流程的管理体系</p>
+          <p class="text-blue-300 text-sm"></p>
         </div>
         <div class="flex gap-6">
           <a href="#" class="hover:text-blue-300 transition">关于我们</a>
