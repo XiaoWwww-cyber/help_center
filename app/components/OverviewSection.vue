@@ -10,7 +10,7 @@ const features = [
   {
     title: "平台优势",
     description: [
-      "开箱即用：基于 Nuxt 3 构建，快速部署上线",
+      "开箱即用：基于 Nuxt 4 构建，快速部署上线",
       "高度可定制：灵活的配置选项，满足不同需求",
       "响应式设计：完美适配桌面端和移动端",
     ],
@@ -112,7 +112,7 @@ onMounted(() => {
           平台概述
         </h2>
         <p class="text-xl text-slate-600 leading-relaxed">
-          基于<span class="relative inline-block px-1 mx-0.5"><span class="absolute inset-0 bg-blue-100 -skew-x-6 rounded-sm"></span><span class="relative text-blue-700 font-bold">Nuxt 3</span></span>构建的现代化帮助中心模板，支持<span class="relative inline-block px-1 mx-0.5"><span class="absolute inset-0 bg-blue-100 -skew-x-6 rounded-sm"></span><span class="relative text-blue-700 font-bold">Markdown</span></span>文档编写，提供<span class="relative inline-block px-1 mx-0.5"><span class="absolute inset-0 bg-blue-100 -skew-x-6 rounded-sm"></span><span class="relative text-blue-700 font-bold">视频教程、全文搜索</span></span>等功能，帮助企业快速搭建<span class="relative inline-block px-1 mx-0.5"><span class="absolute inset-0 bg-blue-100 -skew-x-6 rounded-sm"></span><span class="relative text-blue-700 font-bold">专业帮助中心</span></span>。
+          基于<span class="relative inline-block px-1 mx-0.5"><span class="absolute inset-0 bg-blue-100 -skew-x-6 rounded-sm"></span><span class="relative text-blue-700 font-bold">Nuxt 4</span></span>构建的现代化帮助中心模板，支持<span class="relative inline-block px-1 mx-0.5"><span class="absolute inset-0 bg-blue-100 -skew-x-6 rounded-sm"></span><span class="relative text-blue-700 font-bold">Markdown</span></span>文档编写，提供<span class="relative inline-block px-1 mx-0.5"><span class="absolute inset-0 bg-blue-100 -skew-x-6 rounded-sm"></span><span class="relative text-blue-700 font-bold">视频教程、全文搜索</span></span>等功能，帮助企业快速搭建<span class="relative inline-block px-1 mx-0.5"><span class="absolute inset-0 bg-blue-100 -skew-x-6 rounded-sm"></span><span class="relative text-blue-700 font-bold">专业帮助中心</span></span>。
         </p>
       </div>
 

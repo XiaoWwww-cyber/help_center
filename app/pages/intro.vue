@@ -102,7 +102,7 @@ onMounted(() => {
           <ul class="hero-list text-sm text-blue-100 mb-8 max-w-xl space-y-3">
             <li class="hero-list-item flex items-start gap-2">
               <span class="text-blue-300 mt-1">●</span>
-              <span class="text-reveal">基于 Nuxt 3 构建，支持 Markdown 文档、视频教程、全文搜索等功能</span>
+              <span class="text-reveal">基于 Nuxt 4 构建，支持 Markdown 文档、视频教程、全文搜索等功能</span>
             </li>
             <li class="hero-list-item flex items-start gap-2">
               <span class="text-blue-300 mt-1">●</span>
