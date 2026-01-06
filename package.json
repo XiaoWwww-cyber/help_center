@@ -1,0 +1,36 @@
+{
+  "name": "help_center",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "3.8.2",
+    "@nuxt/hints": "1.0.0-alpha.1",
+    "@nuxt/image": "2.0.0",
+    "@nuxt/ui": "4.2.0",
+    "@tresjs/cientos": "^5.1.1",
+    "@tresjs/nuxt": "^5.1.1",
+    "@tresjs/post-processing": "^3.1.1",
+    "@types/three": "^0.181.0",
+    "better-sqlite3": "^12.4.1",
+    "fuse.js": "^7.1.0",
+    "gsap": "^3.13.0",
+    "nuxt": "^4.2.1",
+    "nuxt-lottie": "^1.0.8",
+    "tailwindcss": "^4.1.17",
+    "three": "^0.181.2",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.75",
+    "sass-embedded": "^1.93.3"
+  }
+}
